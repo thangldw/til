@@ -1,0 +1,32 @@
+Everything you can place in a variable is an object, and every object is an instance of a class. 
+Even numbers, functions, and null are objects. 
+With the exception of null (if you enable sound null safety), all objects inherit from the Object class.
+
+Although Dart is strongly typed, type annotations are optional because Dart can infer types. 
+In the code above, number is inferred to be of type int
+
+
+If you enable null safety, variables can’t contain null unless you say they can. 
+You can make a variable nullable by putting a question mark (?) at the end of its type. 
+
+
+When you want to explicitly say that any type is allowed, use the type Object? 
+(if you’ve enabled null safety), Object, or—if you must defer type checking until runtime—the special type dynamic.
+
+Dart supports generic types, like List<int> (a list of integers) or List<Object> (a list of objects of any type).
+
+
+Dart supports top-level functions (such as main()), as well as functions tied to a class or object (static and instance methods, respectively). 
+You can also create functions within functions (nested or local functions).
+
+Similarly, Dart supports top-level variables, as well as variables tied to a class or object (static and instance variables). 
+Instance variables are sometimes known as fields or properties.
+
+Unlike Java, Dart doesn’t have the keywords public, protected, and private. 
+If an identifier starts with an underscore (_), it’s private to its library. 
+
+Identifiers can start with a letter or underscore (_), followed by any combination of those characters plus digits.
+
+Dart has both expressions (which have runtime values) and statements (which don’t).
+
+Dart tools can report two kinds of problems: warnings and errors.
