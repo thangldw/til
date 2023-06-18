@@ -13,8 +13,8 @@ NUM_PORTS = 20000
 
 # --------------------------------------------------------------------------------------------------------------------------------
 # WIFEED API KEY
-API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTc4LCJpYXQiOjE2NzE2OTU5MzB9.SXlkrZirEqFoy4xXAQDCLq7vGQilDQ8WWpUJSaNzu1g'
-STOCK_DATA_URL = 'https://wifeed.vn/api/du-lieu-gia-eod/full?apikey={}&code={}&from-date={}&to-date={}'
+API_KEY = ""
+STOCK_DATA_URL = ""
 
 # --------------------------------------------------------------------------------------------------------------------------------
 # MAIN FUNCTIONS
